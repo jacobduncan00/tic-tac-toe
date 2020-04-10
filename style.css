@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: black;
+  background: url(/images/wp2757967-wallpaper-gif.gif) repeat center center
+    fixed;
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.p1,
+.p2 {
+  font-family: "Poppins";
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.p1 {
+  color: #f8fc48;
+  margin-left: 20px;
+}
+
+.game-title {
+  font-family: "Poppins";
+  font-size: 5rem;
+  color: WHITE;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  background-size: cover;
+}
+
+.p2 {
+  color: #184828;
+  margin-right: 20px;
+}
+
+.titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: center;
+}
+
+.game {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 30px auto;
+  vertical-align: center;
+  width: 400px;
+  height: 400px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  border-radius: 4px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 17px 50px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 17px 50px;
+}
+
+.space {
+  background-color: rgb(215, 208, 208);
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: xx-large;
+  font-family: "Poppins", sans-serif;
+}
+
+.space:hover {
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.reset-button {
+  font-size: 2rem;
+  font-family: "Poppins";
+  color: white;
+  background-color: #e31858;
+  border: 5px solid white;
+  padding: 5px;
+  -webkit-transition: border, color, 0.5s;
+  transition: border, color, 0.5s;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.reset-button:hover {
+  cursor: pointer;
+  color: #e43bed;
+  border: 5px solid #e43bed;
+  -webkit-transition: border, color, 0.5s;
+  transition: border, color, 0.5s;
+  background-color: white;
+}
+
+.reset-button:focus {
+  outline: none;
+}
+
+.reset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
