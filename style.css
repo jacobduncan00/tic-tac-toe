@@ -2,8 +2,8 @@
 
 body {
   background-color: black;
-  background: url(/images/wp2757967-wallpaper-gif.gif) repeat center center
-    fixed;
+  background: url(https://media.giphy.com/media/A1TLQFjrajmUM/source.gif) repeat
+    center center fixed;
   background-size: cover;
   height: 100vh;
   padding: 0;
@@ -25,7 +25,7 @@ body {
 .game-title {
   font-family: "Poppins";
   font-size: 5rem;
-  color: WHITE;
+  color: White;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -68,7 +68,6 @@ body {
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 17px 50px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 17px 50px;
 }
-
 .space {
   background-color: rgb(215, 208, 208);
   -webkit-transition: background-color 0.5s;
@@ -85,14 +84,12 @@ body {
   font-size: xx-large;
   font-family: "Poppins", sans-serif;
 }
-
 .space:hover {
   background-color: rgba(0, 0, 0, 0);
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
   cursor: pointer;
 }
-
 .reset-button {
   font-size: 2rem;
   font-family: "Poppins";
@@ -105,7 +102,6 @@ body {
   width: 200px;
   border-radius: 25px;
 }
-
 .reset-button:hover {
   cursor: pointer;
   color: #e43bed;
@@ -114,7 +110,6 @@ body {
   transition: border, color, 0.5s;
   background-color: white;
 }
-
 .reset-button:focus {
   outline: none;
 }
